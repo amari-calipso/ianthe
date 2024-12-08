@@ -1,14 +1,6 @@
 ﻿![](logo.png)
 # Ianthe
 Ianthe is a Python executables build tool that generates PyInstaller commands and executes them, aiming to achieve more compact executables with a simpler syntax.
-# Installation
-```
-pip install ianthe
-```
-# Terminal usage
-```
-python -m ianthe project_file.iproj
-```
 # Command line arguments
 - `--export`: Prints out the generated PyInstaller arguments and quits.
 - `--generate-build-script`: Generates a Python script that executes the given project file.
@@ -72,7 +64,7 @@ copy_metadata: {
 }
 ```
 ### `display_mode` or `"display-mode"`
-Requires either `console`, `"console"`, `windowed` or `"windowed"`. 
+Requires either `console`, `"console"`, `windowed` or `"windowed"`.
 ### `icon` or `"icon"`
 Sets the program's icon. Requires a `str` or a path-like argument.
 ### `windows`, `win` or `"win"`
